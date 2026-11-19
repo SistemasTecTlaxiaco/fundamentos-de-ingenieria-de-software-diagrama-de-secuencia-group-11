@@ -1,25 +1,10 @@
 # Entrega · Práctica 10
 
-<!--
-Plantilla de entrega (opcional). Pueden llenar este archivo o entregar su propio documento.
-- Formato libre: PDF, Word (.docx) o Markdown, con el nombre que quieran, dentro de entrega/.
-  Si entregan PDF o Word, pueden borrar este archivo; el robot revisa el documento más completo.
-- Pueden cambiar los títulos y el orden. El robot reconoce títulos parecidos a los de la
-  rúbrica y, si no los encuentra, busca la evidencia en todo el documento.
-- Todo lo que está entre estos símbolos de comentario NO cuenta como contenido.
-- Se esperan al menos 4 imágenes: dominio, 2 secuencias y arquitectura.
-- El repositorio es público: nada de teléfonos, correos, CURP ni firmas. A las personas de
-  la organización, por su cargo, rol o apodo.
--->
-
-**Equipo:**
+**Equipo:** Grupo 11 — Charlie
 **Módulo del Hub:**
 **Organización:**
 
 ## 1. Conceptos del dominio
-
-<!-- Cada concepto, de dónde sale (BPMN, entrevista o DRS) y cómo lo nombra la organización.
-Ejemplo:  | Bodega | BPMN mejorado, actividad "guardar la miel" | Así le dicen en la cooperativa | -->
 
 | Concepto | De dónde sale | Cómo lo dice la organización |
 |---|---|---|
@@ -27,13 +12,9 @@ Ejemplo:  | Bodega | BPMN mejorado, actividad "guardar la miel" | Así le dicen 
 
 ## 2. Atributos y asociaciones del dominio
 
-<!-- Atributos sin tipos y sin operaciones. Cada asociación leída como oración con multiplicidad.
-Ejemplo:  Un Socio realiza 0..* Entregas; cada Entrega se guarda en 1 Bodega.
-Inserten la imagen del modelo de dominio. -->
+*Inserte aquí el modelo de dominio.*
 
 ## 3. Escenarios
-
-<!-- Por cada diagrama de secuencia: caso de uso (CU-01…), y si es flujo principal o alterno. -->
 
 | Diagrama | Caso de uso | Escenario |
 |---|---|---|
@@ -41,17 +22,15 @@ Inserten la imagen del modelo de dominio. -->
 
 ## 4. Diagramas de secuencia
 
-<!-- Inserten cada diagrama y digan cuál es la frontera, el control y las entidades. -->
+*Inserte aquí los diagramas de secuencia.*
 
 ## 5. Fragmentos
 
-<!-- Qué fragmento usaron (alt, opt o loop), su condición de guarda y de qué flujo alterno sale.
-Ejemplo:  alt [kilos ≤ 0] / [else], flujo alterno 3a de CU-01. -->
+| Fragmento | Condición de guarda | Flujo alterno |
+|---|---|---|
+|  |  |  |
 
 ## 6. Consistencia con el diagrama de clases
-
-<!-- Cada mensaje y la operación de la clase que lo recibe.
-Ejemplo:  :Control → :Inventario · sumar(kilos) existe en la clase Inventario. -->
 
 | Mensaje | Clase que lo recibe | ¿Existe la operación? |
 |---|---|---|
@@ -59,23 +38,17 @@ Ejemplo:  :Control → :Inventario · sumar(kilos) existe en la clase Inventario
 
 ## 7. Integración de negocio y requisitos
 
-<!-- Cómo se conectan BPMN mejorado → DRS (RF, RNF, RD) → casos de uso → dominio → secuencias.
-Expliquen por qué el orden de los mensajes sigue al BPMN. -->
+*Describa la relación BPMN → DRS → casos de uso → dominio → secuencias.*
 
 ## 8. Modelo de arquitectura
 
-<!-- Inserten el diagrama de paquetes con las cuatro capas: Presentación, Aplicación / API,
-Dominio e Integración. Digan qué clase va en cada capa y qué es real y qué es simulado. -->
+*Inserte aquí el diagrama de paquetes con las capas requeridas.*
 
 ## 9. Validación con la organización
 
-<!-- Fecha, minuta de la presentación (con cargos, no datos personales), qué preguntaron,
-si aprobaron el modelo y qué cambió después. -->
+*Indique fecha, participantes, preguntas, aprobación y cambios realizados.*
 
 ## 10. Revisión cruzada
-
-<!-- Equipo revisor, observaciones con la lista de consistencia, qué hicieron con cada una,
-y quién hizo y revisó cada pull request. -->
 
 | Observación del equipo revisor | Qué hicimos |
 |---|---|
